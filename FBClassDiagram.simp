@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.51" multi-file="no">
+  <meta>
+    <name>FBClassDiagram</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="Pe932c78e77d94d6e803578578ef8f039">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Photograph" tid="" name="Photograph" description="" nullable="false" />
+      <type id="User" tid="" name="User" description="" nullable="false" />
+      <type id="bool" tid="" name="bool" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p305039175174495502" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/05/2013 23:23:58</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p154204746632934160" name="ClassDiagram1" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/05/2013 23:23:58</creation-date>
+          <change-date>12/05/2013 23:53:27</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di103708135610174808" cid="C001" type="class" name="PhotographDeleter" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2013 23:26:02">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o2dd5c643a38c43838912803822138058704" name="DeletePhotograph()" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Photo" type="Photograph" type-id="Photograph" default-value="" />
+                  <parameter id="" name="RequestingUser" type="User" type-id="User" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di302448473908903186" cid="C002" type="class" name="PhotographDeletionValidator" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2013 23:40:55">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oe393e9b4768d4a929c7aab7a4af965b2944" name="ValidatePhotographDeletion" type="bool" type-id="bool" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Photo" type="Photograph" type-id="Photograph" default-value="" />
+                  <parameter id="" name="RequestingUser" type="User" type-id="User" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di891382970723531452" cid="REL004" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pe932c78e77d94d6e803578578ef8f039" creation-date="12/05/2013 23:53:27">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di103708135610174808" to="di302448473908903186">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di736823584379959858" cid="C003" type="class" name="PhotographOwnershipValidator" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2013 23:46:02">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o39930df16b084061b957e32c6c8cbe95172" name="ValidateOwnership" type="bool" type-id="bool" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Photo" type="Photograph" type-id="Photograph" default-value="" />
+                  <parameter id="" name="RequestingUser" type="User" type-id="User" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di201215658358639160" cid="C004" type="class" name="PhotographExistenceValidator" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2013 23:48:04">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o598c305212374b9a93b3c7de87d6b397574" name="ValidateExistence" type="bool" type-id="bool" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Photo" type="Photograph" type-id="Photograph" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di532271448938354973" cid="REL002" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pe932c78e77d94d6e803578578ef8f039" creation-date="12/05/2013 23:50:48">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di302448473908903186" to="di201215658358639160">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di682057974364002359" cid="REL003" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pe932c78e77d94d6e803578578ef8f039" creation-date="12/05/2013 23:50:53">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di302448473908903186" to="di736823584379959858">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di103560741646286724" cid="C005" type="class" name="UserConfirmation" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2013 23:51:20">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="off1a2e1e1f2a48979b4b9205d72fb7f1410" name="ConfirmDeletion" type="bool" type-id="bool" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="Message" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="di800592975456231521" cid="DEP003" type="dependency" name="&lt;&lt;call&gt;&gt;" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pe932c78e77d94d6e803578578ef8f039" creation-date="12/05/2013 23:51:51">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di103708135610174808" iid="c9f4ccbaa01843b7831e231701b86874" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:26:02" order-index="0" type="entity">
+            <layout ax="151" ay="241" awidth="178" aheight="160" x="151" y="241" width="178" height="160" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di302448473908903186" iid="299e3d5e727740238e338ca6666db883" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:40:55" order-index="1" type="entity">
+            <layout ax="465" ay="241" awidth="233" aheight="160" x="465" y="241" width="233" height="160" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di736823584379959858" iid="c7e2b66c7fad40688ada6d91f22a7beb" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:46:02" order-index="3" type="entity">
+            <layout ax="815" ay="241" awidth="182" aheight="123" x="815" y="241" width="182" height="123" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di201215658358639160" iid="6a0e9c3a9ab04aa2a90166e52aa20fcf" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:48:04" order-index="4" type="entity">
+            <layout ax="815" ay="41" awidth="172" aheight="160" x="815" y="41" width="172" height="160" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di532271448938354973" iid="6414f817ed134ba794d09e140845d6a5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:50:48" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="698" y1="248" x2="815" y2="175" start-border-pos="0.261363625526428" end-border-pos="0.790752339363098">
+              <points>
+                <point x="698" y="248" />
+                <point x="815" y="175" />
+              </points>
+            </layout>
+            <relation from="di302448473908903186" from-iid="299e3d5e727740238e338ca6666db883" to="di201215658358639160" to-iid="6a0e9c3a9ab04aa2a90166e52aa20fcf" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di682057974364002359" iid="0da8d00b80474c92b5de9550c8344e25" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:50:53" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="698" y1="314" x2="815" y2="307" start-border-pos="0.364371156692505" end-border-pos="0.865169866298272">
+              <points>
+                <point x="698" y="314" />
+                <point x="815" y="307" />
+              </points>
+            </layout>
+            <relation from="di302448473908903186" from-iid="299e3d5e727740238e338ca6666db883" to="di736823584379959858" to-iid="c7e2b66c7fad40688ada6d91f22a7beb" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di103560741646286724" iid="e411758c1ab447b7a19f7f08ae78dd31" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:51:20" order-index="7" type="entity">
+            <layout ax="815" ay="432" awidth="182" aheight="120" x="815" y="432" width="182" height="120" angle="0" />
+            <class show-attributes="true" show-operations="true" />
+          </item>
+          <item id="di800592975456231521" iid="95b9bf978f0a4983997b2ec81c6538e6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:51:51" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="698" y1="382" x2="815" y2="444" start-border-pos="0.470659732818604" end-border-pos="0.975057856241862">
+              <points>
+                <point x="698" y="382" />
+                <point x="815" y="444" />
+              </points>
+            </layout>
+            <relation from="di302448473908903186" from-iid="299e3d5e727740238e338ca6666db883" to="di103560741646286724" to-iid="e411758c1ab447b7a19f7f08ae78dd31" />
+          </item>
+          <item id="di891382970723531452" iid="edd74bb140a9408983dcb5a092571edc" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/05/2013 23:53:27" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="329" y1="321" x2="465" y2="321" start-border-pos="0.375" end-border-pos="0.875">
+              <points>
+                <point x="329" y="321" />
+                <point x="465" y="321" />
+              </points>
+            </layout>
+            <relation from="di103708135610174808" from-iid="c9f4ccbaa01843b7831e231701b86874" to="di302448473908903186" to-iid="299e3d5e727740238e338ca6666db883" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
